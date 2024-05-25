@@ -22,17 +22,23 @@ The classifier is based on a pre-trained VGG16 model with additional layers adde
 
 Please note that the training dataset is not included in this repository due to its size. You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/gauravneupane/nepali-rupees-collection). After downloading, extract the dataset and arrange the folder structure as follows:
 
+```
 dataset/
+│
 ├── train/
 │   ├── class_1/
 │   ├── class_2/
 │   ├── ...
 │   └── class_n/
+│
 └── valid/
     ├── class_1/
     ├── class_2/
     ├── ...
     └── class_n/
+
+```
+
 
 
 Replace `class_1`, `class_2`, etc., with the actual class names or labels of the currency notes.
