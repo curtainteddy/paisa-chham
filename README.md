@@ -10,7 +10,7 @@ The classifier is based on a pre-trained VGG16 model with additional layers adde
 
 - `Nepali_Currency_Recognition_Classifier.ipynb`: Jupyter Notebook containing the code for the classifier.
 - `currency_classifier_model.h5`: Saved model file containing the trained classifier model.
-- `Prediction Checker/`: Folder containing test images for evaluating the classifier.
+- `Test Images/`: Folder containing test images for evaluating the classifier.
 
 ## Usage
 
